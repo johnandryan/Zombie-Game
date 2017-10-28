@@ -38,7 +38,7 @@ class GameScene: SKScene {
         //Hit Sprite
         hitIdle.position = CGPoint(x: 400, y: 400)
         hitIdle.setScale(4)
-        addChild(hitIdle)
+        addChild(hitIdle) 
         
         //Spawn Enemy
         spawnEnemy()
