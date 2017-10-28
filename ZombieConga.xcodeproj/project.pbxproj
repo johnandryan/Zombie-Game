@@ -15,6 +15,7 @@
 		860032D91FA2DEC800D80D20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 860032D71FA2DEC800D80D20 /* LaunchScreen.storyboard */; };
 		860032E41FA2DEC800D80D20 /* ZombieCongaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860032E31FA2DEC800D80D20 /* ZombieCongaTests.swift */; };
 		860032EF1FA2DEC800D80D20 /* ZombieCongaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860032EE1FA2DEC800D80D20 /* ZombieCongaUITests.swift */; };
+		860032FD1FA2F86C00D80D20 /* MyUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860032FC1FA2F86C00D80D20 /* MyUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		860032EA1FA2DEC800D80D20 /* ZombieCongaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZombieCongaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		860032EE1FA2DEC800D80D20 /* ZombieCongaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZombieCongaUITests.swift; sourceTree = "<group>"; };
 		860032F01FA2DEC800D80D20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		860032FC1FA2F86C00D80D20 /* MyUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				860032C81FA2DEC800D80D20 /* AppDelegate.swift */,
 				860032CE1FA2DEC800D80D20 /* GameScene.swift */,
+				860032FC1FA2F86C00D80D20 /* MyUtils.swift */,
 				860032D01FA2DEC800D80D20 /* GameViewController.swift */,
 				860032D21FA2DEC800D80D20 /* Main.storyboard */,
 				860032D51FA2DEC800D80D20 /* Assets.xcassets */,
@@ -265,6 +268,7 @@
 				860032CF1FA2DEC800D80D20 /* GameScene.swift in Sources */,
 				860032D11FA2DEC800D80D20 /* GameViewController.swift in Sources */,
 				860032C91FA2DEC800D80D20 /* AppDelegate.swift in Sources */,
+				860032FD1FA2F86C00D80D20 /* MyUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
